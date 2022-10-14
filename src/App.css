@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+* ::-webkit-scrollbar {
+  width: 8px;
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+.app {
+  background-repeat: no-repeat;
+  min-height: 98.5vh;
+  border: 8px solid #30d2bf93;
+  margin: 5px;
+  padding: 5px;
+}
